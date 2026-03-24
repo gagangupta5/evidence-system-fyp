@@ -56,15 +56,21 @@ The Eviledge system follows a hybrid architecture combining off-chain storage wi
 
 
 User (Investigator)
+
         │
         ▼
+        
 Web Application Interface
+
         │
         ▼
+        
 Backend Server (Node.js)
+
         │
  ┌──────┴────────┐
  ▼               ▼
+ 
 Database      Blockchain Layer
 (MongoDB)     (Evidence Hash Ledger)
 
@@ -139,19 +145,28 @@ eviledge/
 Eviledge can be used in:
 
 1 Digital Forensics
+
 2 Cybercrime Investigations
+
 3 Law Enforcement Agencies
+
 4 Legal Evidence Management Systems
+
 5 Secure Document Verification
 
 
 ==FUTURE IMPROVEMENTS==
 
 1 Smart contract integration
+
 2 IPFS based decentralized evidence storage
+
 3 Role-based access control
+
 4 Evidence encryption
+
 5 Multi-organization evidence sharing
+
 6 Blockchain network integration (Ethereum / Hyperledger)
 
 
