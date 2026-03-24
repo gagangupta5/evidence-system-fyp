@@ -1,4 +1,3 @@
-# evidence-system-fyp
 
 # EviLedger: Blockchain-Based Digital Evidence System
 
