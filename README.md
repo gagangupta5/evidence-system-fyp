@@ -79,7 +79,7 @@ Database      Blockchain Layer
 
 
 
-==EXPLANATION==
+###EXPLANATION
 
 
 1 Frontend Interface
@@ -98,7 +98,7 @@ The hash of the evidence is stored on the blockchain to create an immutable reco
 Actual evidence files are stored in the database or secure storage to optimize performance.
 
 
-==PROJECT WORKFLOW== 
+###PROJECT WORKFLOW== 
 
 
 1. Evidence Upload :
@@ -119,7 +119,7 @@ When evidence is retrieved, the system recalculates the hash.
 The new hash is compared with the blockchain record to confirm authenticity.
 
 
-==PROJECT STRUCTURE== 
+###PROJECT STRUCTURE
 
 eviledge/
 │
@@ -143,7 +143,7 @@ eviledge/
 └── README.md
 
 
-==USECASE== 
+###USECASE== 
 
 Eviledge can be used in:
 
@@ -158,7 +158,7 @@ Eviledge can be used in:
 5 Secure Document Verification
 
 
-==FUTURE IMPROVEMENTS==
+###FUTURE IMPROVEMENTS
 
 1 Smart contract integration
 
@@ -173,7 +173,7 @@ Eviledge can be used in:
 6 Blockchain network integration (Ethereum / Hyperledger)
 
 
-==CONTRIBUTORS==
+###CONTRIBUTORS
 
 Avani Katiyar
 
