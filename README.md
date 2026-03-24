@@ -55,29 +55,18 @@ The system ensures a reliable chain of custody, allowing investigators and legal
 
 EviLedger follows a hybrid architecture combining blockchain with off-chain storage.
 
-
-
-
-User (Investigator)
-
-        │
-        ▼
-        
-Web Application Interface
-
-        │
-        ▼
-        
-Backend Server (Node.js)
-
-        │
- ┌──────┴────────┐
- ▼               ▼
- 
-Database      Blockchain Layer
-(MongoDB)     (Evidence Hash Ledger)
-
-
+**          User (Investigator)
+                    │
+                    ▼
+      Web Application Interface
+                    │
+                    ▼
+        Backend Server (Node.js)
+                    │
+        ┌───────────┴───────────┐
+        ▼                       ▼
+   Database            Blockchain Layer
+  (MongoDB)         (Evidence Hash Ledger)
 
 ### EXPLANATION
 
