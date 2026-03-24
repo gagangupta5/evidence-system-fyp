@@ -1,12 +1,14 @@
 # evidence-system-fyp
 
 ==OVERVIEW==
+
 Eviledge is a secure digital evidence tracking system designed to maintain the integrity, authenticity, and traceability of forensic evidence using blockchain and cryptographic techniques.
 Traditional evidence management systems are vulnerable to tampering, unauthorized access, and lack of transparent audit trails. Eviledge addresses these issues by implementing a decentralized and tamper-proof evidence tracking mechanism where every evidence record is securely stored and verified through blockchain.
 The system ensures that the chain of custody is preserved, enabling investigators and legal authorities to track evidence throughout its lifecycle.
 
 
-==KEY FEATURE== 
+==KEY FEATURE==
+
 1 Tamper-proof evidence storage using blockchain hashing
 2 Secure chain of custody tracking
 3 Timestamped evidence records
