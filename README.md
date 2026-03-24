@@ -68,47 +68,48 @@ EviLedger follows a hybrid architecture combining blockchain with off-chain stor
    Database            Blockchain Layer
   (MongoDB)         (Evidence Hash Ledger)
 
-### EXPLANATION
 
+---
 
-1 Frontend Interface
-Investigators upload and manage evidence through a web interface.
+## 5. System Explanation
 
-2 Backend Server
-Handles authentication, evidence submission, and verification.
+### 1. Frontend Interface
+Investigators upload and manage evidence through a user-friendly web interface.
 
-3 Evidence Hashing
-Evidence files are processed using cryptographic hashing to generate a unique fingerprint.
+### 2. Backend Server
+Handles authentication, evidence submission, and verification processes.
 
-4 Blockchain Ledger
-The hash of the evidence is stored on the blockchain to create an immutable record.
+### 3. Evidence Hashing
+Each file is converted into a unique cryptographic hash (digital fingerprint).
 
-5 Off-Chain Storage
-Actual evidence files are stored in the database or secure storage to optimize performance.
+### 4. Blockchain Ledger
+The hash is stored on the blockchain to ensure immutability.
 
+### 5. Off-Chain Storage
+Actual evidence files are stored in the database for efficiency and scalability.
 
-### PROJECT WORKFLOW
+---
 
+## 6. Project Workflow
 
-1. Evidence Upload :
-Investigator uploads evidence.
-System generates a cryptographic hash of the file.
+1. **Evidence Upload**  
+   Investigator uploads evidence → system generates hash  
 
-2. Blockchain Record Creation :
-The hash and metadata are stored in the blockchain ledger.
+2. **Blockchain Record Creation**  
+   Hash + metadata stored on blockchain  
 
-3. Evidence Storage :
-The original file is stored securely in the database.
+3. **Evidence Storage**  
+   Original file stored securely in database  
 
-4. Chain of Custody Tracking :
-Each action (upload, transfer, verification) is recorded with a timestamp and user ID.
+4. **Chain of Custody Tracking**  
+   Every action recorded with timestamp & user ID  
 
-5. Evidence Verification :
-When evidence is retrieved, the system recalculates the hash.
-The new hash is compared with the blockchain record to confirm authenticity.
+5. **Evidence Verification**  
+   Hash is recalculated and compared with blockchain  
 
+---
 
-### PROJECT STRUCTURE
+## 7. Project Structure
 
 eviledge/
 │
