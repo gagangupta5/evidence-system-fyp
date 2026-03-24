@@ -19,29 +19,40 @@ The system ensures that the chain of custody is preserved, enabling investigator
 
 
 ==TECHNOLOGY STACK ==
+
 FRONT-END
-HTML
-CSS
+
+HTML,
+CSS,
 JavaScript
 
+
 BACK-END
+
 Node.js / Express
 
 DATABASE
+
 MongoDB
 
+
 SECURITY & BLOCKCHAIN
-Cryptographic Hashing (SHA-256)
+
+Cryptographic Hashing (SHA-256),
 Blockchain ledger for evidence record storage
 
+
 TOOLS
-Git & GitHub
-VS Code
+
+Git & GitHub,
+VS Code,
 Postman
 
 
 ==SYSTEM ARCHIETECTURE== 
+
 The Eviledge system follows a hybrid architecture combining off-chain storage with blockchain verification.
+
 
 
 User (Investigator)
@@ -58,21 +69,28 @@ Database      Blockchain Layer
 (MongoDB)     (Evidence Hash Ledger)
 
 
+
 ==EXPLANATION==
+
 
 1 Frontend Interface
 Investigators upload and manage evidence through a web interface.
+
 2 Backend Server
 Handles authentication, evidence submission, and verification.
+
 3 Evidence Hashing
 Evidence files are processed using cryptographic hashing to generate a unique fingerprint.
+
 4 Blockchain Ledger
 The hash of the evidence is stored on the blockchain to create an immutable record.
+
 5 Off-Chain Storage
 Actual evidence files are stored in the database or secure storage to optimize performance.
 
 
 ==PROJECT WORKFLOW== 
+
 
 1. Evidence Upload :
 Investigator uploads evidence.
