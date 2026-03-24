@@ -1,14 +1,12 @@
 # evidence-system-fyp
 
-OVERVIEW
+==OVERVIEW==
 Eviledge is a secure digital evidence tracking system designed to maintain the integrity, authenticity, and traceability of forensic evidence using blockchain and cryptographic techniques.
 Traditional evidence management systems are vulnerable to tampering, unauthorized access, and lack of transparent audit trails. Eviledge addresses these issues by implementing a decentralized and tamper-proof evidence tracking mechanism where every evidence record is securely stored and verified through blockchain.
 The system ensures that the chain of custody is preserved, enabling investigators and legal authorities to track evidence throughout its lifecycle.
 
-==============================================================================================================================
 
-
-KEY FEATURE 
+==KEY FEATURE== 
 1 Tamper-proof evidence storage using blockchain hashing
 2 Secure chain of custody tracking
 3 Timestamped evidence records
@@ -18,9 +16,7 @@ KEY FEATURE
 7 Off-chain storage for large evidence files
 
 
-===============================================================================================================================
-TECHNOLOGY STACK 
-
+==TECHNOLOGY STACK ==
 FRONT-END
 HTML
 CSS
@@ -41,9 +37,8 @@ Git & GitHub
 VS Code
 Postman
 
-====================================================================================================================================
 
-SYSTEM ARCHIETECTURE 
+==SYSTEM ARCHIETECTURE== 
 The Eviledge system follows a hybrid architecture combining off-chain storage with blockchain verification.
 
 
@@ -61,9 +56,7 @@ Database      Blockchain Layer
 (MongoDB)     (Evidence Hash Ledger)
 
 
-==============================================================================================================================
-
-EXPLANATION
+==EXPLANATION==
 
 1 Frontend Interface
 Investigators upload and manage evidence through a web interface.
@@ -77,9 +70,7 @@ The hash of the evidence is stored on the blockchain to create an immutable reco
 Actual evidence files are stored in the database or secure storage to optimize performance.
 
 
-===========================================================================================================================
-
-PROJECT WORKFLOW 
+==PROJECT WORKFLOW== 
 
 1. Evidence Upload :
 Investigator uploads evidence.
@@ -99,10 +90,7 @@ When evidence is retrieved, the system recalculates the hash.
 The new hash is compared with the blockchain record to confirm authenticity.
 
 
-===================================================================================================================================
-
-
-PROJECT STRUCTURE 
+==PROJECT STRUCTURE== 
 
 eviledge/
 │
@@ -126,10 +114,7 @@ eviledge/
 └── README.md
 
 
-
-==============================================================================================================
-
-USECASE 
+==USECASE== 
 
 Eviledge can be used in:
 
@@ -140,10 +125,7 @@ Eviledge can be used in:
 5 Secure Document Verification
 
 
-===============================================================================================================
-
-
-FUTURE IMPROVEMENTS
+==FUTURE IMPROVEMENTS==
 
 1 Smart contract integration
 2 IPFS based decentralized evidence storage
@@ -153,8 +135,7 @@ FUTURE IMPROVEMENTS
 6 Blockchain network integration (Ethereum / Hyperledger)
 
 
-=======================================================================================================================
-CONTRIBUTORS
+==CONTRIBUTORS==
 
 Avani Katiyar
 Akanksha Dixit
