@@ -158,9 +158,14 @@ Eviledge can be used in:
 ==CONTRIBUTORS==
 
 Avani Katiyar
+
 Akanksha Dixit
+
 Arpit Uttam
+
 Gagan Gupta
+
 Anurag Pal 
+
 Abhash Pandey
 
