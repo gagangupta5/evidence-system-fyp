@@ -1,57 +1,60 @@
 # evidence-system-fyp
 
-==OVERVIEW==
+# EviLedger: Blockchain-Based Digital Evidence System
 
-Eviledge is a secure digital evidence tracking system designed to maintain the integrity, authenticity, and traceability of forensic evidence using blockchain and cryptographic techniques.
-Traditional evidence management systems are vulnerable to tampering, unauthorized access, and lack of transparent audit trails. Eviledge addresses these issues by implementing a decentralized and tamper-proof evidence tracking mechanism where every evidence record is securely stored and verified through blockchain.
-The system ensures that the chain of custody is preserved, enabling investigators and legal authorities to track evidence throughout its lifecycle.
+---
 
+## 1. Overview
 
-==KEY FEATURE==
+EviLedger is a secure digital evidence tracking system designed to maintain the integrity, authenticity, and traceability of forensic evidence using blockchain and cryptographic techniques.
 
-1 Tamper-proof evidence storage using blockchain hashing
-2 Secure chain of custody tracking
-3 Timestamped evidence records
-4 Transparent audit trail
-5 Evidence verification through cryptographic hash comparison
-6 Secure access for authorized investigators
-7 Off-chain storage for large evidence files
+Traditional evidence management systems are vulnerable to tampering, unauthorized access, and lack of transparency. EviLedger addresses these challenges by providing a decentralized and tamper-proof mechanism where each evidence record is securely stored and verified using blockchain.
 
+The system ensures a reliable chain of custody, allowing investigators and legal authorities to track evidence throughout its lifecycle.
 
-==TECHNOLOGY STACK ==
+---
 
-FRONT-END
+## 2. Key Features
 
-HTML,
-CSS,
-JavaScript
+- Tamper-proof evidence storage using blockchain hashing  
+- Secure chain of custody tracking  
+- Timestamped evidence records  
+- Transparent audit trail  
+- Evidence verification using cryptographic hash comparison  
+- Secure access for authorized users  
+- Off-chain storage for large evidence files  
 
+---
 
-BACK-END
+## 3. Technology Stack
 
-Node.js / Express
+### Frontend
+- HTML  
+- CSS  
+- JavaScript  
 
-DATABASE
+### Backend
+- Node.js  
+- Express.js  
 
-MongoDB
+### Database
+- MongoDB  
 
+### Security & Blockchain
+- Cryptographic Hashing (SHA-256)  
+- Blockchain Ledger for evidence storage  
 
-SECURITY & BLOCKCHAIN
+### Tools
+- Git & GitHub  
+- VS Code  
+- Postman  
 
-Cryptographic Hashing (SHA-256),
-Blockchain ledger for evidence record storage
+---
 
+## 4. System Architecture
 
-TOOLS
+EviLedger follows a hybrid architecture combining blockchain with off-chain storage.
 
-Git & GitHub,
-VS Code,
-Postman
-
-
-==SYSTEM ARCHIETECTURE== 
-
-The Eviledge system follows a hybrid architecture combining off-chain storage with blockchain verification.
 
 
 
