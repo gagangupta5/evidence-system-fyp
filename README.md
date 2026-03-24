@@ -133,47 +133,37 @@ eviledge/
 └── README.md
 
 
-### USECASE
 
-Eviledge can be used in:
+---
 
-1 Digital Forensics
+## 8. Use Cases
 
-2 Cybercrime Investigations
+- Digital Forensics  
+- Cybercrime Investigation  
+- Law Enforcement Agencies  
+- Legal Evidence Management  
+- Secure Document Verification  
 
-3 Law Enforcement Agencies
+---
 
-4 Legal Evidence Management Systems
+## 9. Future Improvements
 
-5 Secure Document Verification
+- Smart contract integration  
+- IPFS-based decentralized storage  
+- Role-based access control  
+- Evidence encryption  
+- Multi-organization sharing  
+- Integration with Ethereum / Hyperledger  
 
+---
 
-### FUTURE IMPROVEMENTS
+## 10. Contributors
 
-1 Smart contract integration
+- Avani Katiyar  
+- Akanksha Dixit  
+- Arpit Uttam  
+- Gagan Gupta  
+- Anurag Pal  
+- Abhash Pandey  
 
-2 IPFS based decentralized evidence storage
-
-3 Role-based access control
-
-4 Evidence encryption
-
-5 Multi-organization evidence sharing
-
-6 Blockchain network integration (Ethereum / Hyperledger)
-
-
-### CONTRIBUTORS
-
-Avani Katiyar
-
-Akanksha Dixit
-
-Arpit Uttam
-
-Gagan Gupta
-
-Anurag Pal 
-
-Abhash Pandey
-
+---
