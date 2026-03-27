@@ -5,11 +5,7 @@
 
 ## 1. Overview
 
-EviLedger is a secure digital evidence tracking system designed to maintain the integrity, authenticity, and traceability of forensic evidence using blockchain and cryptographic techniques.
 
-Traditional evidence management systems are vulnerable to tampering, unauthorized access, and lack of transparency. EviLedger addresses these challenges by providing a decentralized and tamper-proof mechanism where each evidence record is securely stored and verified using blockchain.
-
-The system ensures a reliable chain of custody, allowing investigators and legal authorities to track evidence throughout its lifecycle.
 
 ---
 
