@@ -127,7 +127,12 @@ eviledge/
 │
 └── README.md
 
+## 11. Installation & Setup
 
+### Prerequisites
+- Node.js (v14+)
+- MongoDB
+- Git
 
 ---
 
