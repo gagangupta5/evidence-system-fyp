@@ -15,7 +15,8 @@
 - Secure chain of custody tracking  
 - Timestamped evidence records  
 - Transparent audit trail  
-- Evidence verification using cryptographic hash comparison  
+- Evidence verification using cryptographic hash comparison
+- 
 - Secure access for authorized users  
 - Off-chain storage for large evidence files  
 
